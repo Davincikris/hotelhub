@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HotelHub Admin | Dashboard Preview</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <script src="js/admin.js" defer></script>
+</head>
+<body>
+    <div class="admin-layout">
+        <aside class="sidebar">
+            <a class="admin-brand" href="hotelhubadmin.html">HOTEL<span>HUB</span><small>ADMIN</small></a>
+            <p class="side-label">WORKSPACE</p>
+            <a class="side-link active" href="#overview">▦ <span>Overview</span></a>
+            <a class="side-link" href="#rooms">▤ <span>Room management</span></a>
+            <a class="side-link" href="#reservations">▣ <span>Reservations</span></a>
+            <a class="side-link" href="#food">♨ <span>Food menu & orders</span></a>
+            <a class="side-link" href="#pool">◉ <span>Pool management</span></a>
+            <a class="side-link" href="#payments">₦ <span>Payments</span></a>
+            <a class="side-link" href="#customers">♙ <span>Customers</span></a>
+            <a class="side-link" href="#reports">▥ <span>Reports</span></a>
+            <div class="sidebar-bottom"><a href="index.html">↗ View customer website</a><a href="admin-login.html">Sign out</a></div>
+        </aside>
+        <main class="admin-main" id="overview">
+            <header class="admin-topbar"><div><p class="side-label">MONDAY, HOTEL OPERATIONS</p><h1>Good morning, <em>Admin.</em></h1></div><div class="admin-user"><span class="avatar">HA</span><div><strong>hotelhubadmin</strong><small>Hotel administrator</small></div></div></header>
+            <section class="metric-grid">
+                <article class="metric-card"><p>Total revenue</p><h2>₦0</h2><small>Connect payments to see revenue</small></article>
+                <article class="metric-card"><p>Room bookings</p><h2>0</h2><small>No live bookings yet</small></article>
+                <article class="metric-card"><p>Food orders</p><h2>0</h2><small>No orders yet</small></article>
+                <article class="metric-card"><p>Pool passes</p><h2>0</h2><small>No pool reservations yet</small></article>
+            </section>
+            <section class="admin-panel" id="reservations"><div class="panel-heading"><div><p class="side-label">LATEST ACTIVITY</p><h2>Recent reservations</h2></div><button class="admin-action" type="button">View all</button></div><div class="empty-state"><span>▣</span><h3>No reservations yet</h3><p>Customer bookings will appear here after the backend is connected.</p></div></section>
+            <section class="admin-panel" id="payments"><div class="panel-heading"><div><p class="side-label">TRANSACTION CENTRE</p><h2>Recent payments</h2></div><button class="admin-action" type="button">All payments</button></div><div class="empty-state"><span>₦</span><h3>No payments recorded</h3><p>Verified room, food and pool payments will be listed here.</p></div></section>
+            <section class="admin-shortcuts">
+                <a href="#rooms" id="rooms"><strong>＋ Add a room</strong><span>Publish a room for customers</span></a>
+                <a href="#food" id="food"><strong>＋ Add a menu item</strong><span>Update restaurant offerings</span></a>
+                <a href="#pool" id="pool"><strong>⚙ Manage pool access</strong><span>Set sessions, prices and capacity</span></a>
+                <a href="#customers" id="customers"><strong>♙ Customer records</strong><span>View registered guests</span></a>
+            </section>
+            <p class="admin-disclaimer">Frontend preview only. Real admin authentication, records and payment data will be provided by the Django backend.</p>
+            <p class="site-copy site-copy-admin">&copy; 2026 HotelHub. All rights reserved.</p>
+        </main>
+    </div>
+</body>
+</html>

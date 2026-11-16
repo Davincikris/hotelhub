@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HotelHub Admin Login</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="admin-login-page">
+    <main class="admin-login-card">
+        <a class="admin-brand" href="index.html">HOTEL<span>HUB</span><small>ADMIN</small></a>
+        <p class="side-label">SECURE ADMINISTRATION</p>
+        <h1>Sign in to<br><em>your workspace.</em></h1>
+        <form class="simple-form" onsubmit="event.preventDefault(); alert('This is a visual preview. Secure admin authentication will be implemented in Django.');">
+            <label>Admin username<input type="text" value="hotelhubadmin" autocomplete="username" required></label>
+            <label>Password<input type="password" placeholder="Enter admin password" autocomplete="current-password" required></label>
+            <button class="admin-login-button" type="submit">Sign in →</button>
+        </form>
+        <p class="admin-disclaimer">Preview only — this page does not authenticate users yet.</p>
+        <a class="back-link" href="index.html">← Back to HotelHub website</a>
+        <p class="site-copy site-copy-admin">&copy; 2026 HotelHub. All rights reserved.</p>
+    </main>
+</body>
+</html>

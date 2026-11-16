@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pool Access | HotelHub</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header"><a class="brand" href="index.html">HOTEL<span>HUB</span></a><nav class="main-nav"><a href="rooms.html">Rooms</a><a href="food.html">Dining</a><a href="swimming-pool.html">Swimming Pool</a></nav><a class="nav-cta" href="booking.html">Book a stay ↗</a></header>
+    <main class="page-main">
+        <section class="pool-hero"><div><p class="eyebrow light">TAKE A MOMENT</p><h1>Make waves.<br><em>Slow down.</em></h1><p>Enjoy a refreshing break at the HotelHub swimming pool.</p><a class="button button-light" href="#pool-booking">Reserve pool access →</a></div></section>
+        <section class="section pool-details"><div><p class="eyebrow">POOL ACCESS</p><h2>A little time<br><em>just for you.</em></h2><p>Pool access is subject to availability and daily capacity. Select your preferred date and session to request a pass.</p></div>
+            <div class="price-card"><p class="eyebrow">DAY PASS</p><h3>₦5,000 <span>/ person</span></h3><p>Pool access for one guest, subject to confirmation.</p><p class="small-muted">Children's pricing and group rates can be configured by the hotel.</p></div>
+        </section>
+        <section class="section booking-form-section" id="pool-booking"><p class="eyebrow">PLAN YOUR VISIT</p><h2>Reserve your <em>pool pass.</em></h2><form class="simple-form" onsubmit="event.preventDefault(); alert('Demo only: pool reservations will be enabled when the backend is connected.');"><label>Visit date<input type="date" required></label><label>Session<select required><option value="">Choose a session</option><option>Morning · 9am–12pm</option><option>Afternoon · 1pm–4pm</option><option>Evening · 5pm–7pm</option></select></label><label>Number of guests<input type="number" min="1" max="10" value="1" required></label><button class="button button-dark" type="submit">Continue to payment →</button></form><p class="notice">Demo only: this form does not reserve capacity or collect payment yet.</p></section>
+    </main>
+    <footer class="site-footer"><a class="brand brand-light" href="index.html">HOTEL<span>HUB</span></a><small>© 2026 HotelHub.</small></footer>
+</body>
+</html>

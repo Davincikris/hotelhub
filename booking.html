@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Stay | HotelHub</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header"><a class="brand" href="index.html">HOTEL<span>HUB</span></a><nav class="main-nav"><a href="rooms.html">Rooms</a><a href="food.html">Dining</a><a href="swimming-pool.html">Swimming Pool</a></nav><a class="nav-cta" href="login.html">Guest login ↗</a></header>
+    <main class="page-main"><section class="page-hero"><p class="eyebrow">YOUR NEXT STAY</p><h1>Let's make it<br><em>happen.</em></h1><p>Choose your dates and room. We'll connect this form to live availability in the next development stage.</p></section>
+        <section class="section booking-form-section"><form class="simple-form" onsubmit="event.preventDefault(); alert('Demo only: booking will be enabled after backend integration.');"><label>Room type<select required><option value="">Choose a room</option><option>Deluxe Room</option><option>Executive Suite</option><option>Family Room</option></select></label><label>Check-in<input type="date" required></label><label>Check-out<input type="date" required></label><label>Guests<input type="number" min="1" max="6" value="2" required></label><button class="button button-dark" type="submit">Check availability →</button></form><p class="notice">No room is reserved and no payment is taken in this frontend preview.</p></section>
+    </main>
+    <footer class="site-footer"><a class="brand brand-light" href="index.html">HOTEL<span>HUB</span></a><small>© 2026 HotelHub.</small></footer>
+</body>
+</html>
